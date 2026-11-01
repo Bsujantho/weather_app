@@ -1,0 +1,21 @@
+[project]
+name = "weather-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Bryant Sujantho", email = "bryantsujantho@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.0",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+weather-app = "weather_app:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
