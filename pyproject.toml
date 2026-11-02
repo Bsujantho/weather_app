@@ -1,7 +1,7 @@
 [project]
 name = "weather-app"
 version = "0.1.0"
-description = "Add your description here"
+description = "Daily weather forecast for any city from Open-Meteo, printed as a table and saved as a chart"
 readme = "README.md"
 authors = [
     { name = "Bryant Sujantho", email = "bryantsujantho@gmail.com" }
